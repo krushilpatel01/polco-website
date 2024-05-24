@@ -1,0 +1,19 @@
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+        overflow: hidden;
+    }
+
+    .hero-box h1 {
+        font-size: 30px;
+    }
+
+    .hero-box .boxes{
+        width: 330px;
+    }
+
+    .search-boxes {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
