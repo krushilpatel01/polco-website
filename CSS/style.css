@@ -28,6 +28,10 @@
 
 }
 
+.navbar-light .navbar-nav .nav-link:hover{
+    color: red;
+}
+
 .hero-box {
     width: 100%;
 }
@@ -120,6 +124,11 @@
     border-radius: 100%;
     padding: 10px 10px;
     text-align: center;
+    transition: all 1s ease-in-out;
+}
+
+.cars1:hover>.offer {
+    left: 520px;
 }
 
 .cars1 .image-detail {
@@ -184,6 +193,11 @@
     border-radius: 100%;
     padding: 10px 10px;
     text-align: center;
+    transition: all 1s ease-in-out;
+}
+
+.cars2:hover>.offer {
+    left: 520px;
 }
 
 .cars2 .image-detail {
@@ -246,7 +260,7 @@
     position: relative;
     border-radius: 30px;
     background-color: #EBFDEFCC;
-    ;
+    cursor: pointer;
 }
 
 .catego img {
@@ -276,6 +290,23 @@
 .catego:hover >.number::before{
     right: 10px;
 } */
+
+.catego .add-cart {
+    position: absolute;
+    bottom: -40px;
+    transition: all 1s ease-in-out;
+    left: 0;
+    right: 0;
+    margin: 0px 50px;
+    background-color: white;
+    border-radius: 20px;
+    color: white;
+}
+
+.catego:hover>.add-cart {
+    bottom: 30px;
+    color: black;
+}
 
 .catego h4 {
     font-size: 18px;
@@ -441,6 +472,7 @@
     background-color: white;
     border-radius: 20px;
     padding: 30px 0px;
+    cursor: pointer;
 }
 
 .review .icon {
@@ -492,6 +524,6 @@ footer .footer-logo input {
     color: gray;
 }
 
-.footer-menu-list ul li a:hover{
+.footer-menu-list ul li a:hover {
     color: red;
 }
