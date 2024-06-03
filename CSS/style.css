@@ -16,19 +16,17 @@
     margin: 0 auto;
 }
 
-
 .header-hero {
     width: 100%;
     padding: 212px 0px;
     background-image: url("../images/rectangle_14.jpeg");
     background-position: center;
-    /* background-size: ; */
     background-repeat: no-repeat;
     position: relative;
 
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-light .navbar-nav .nav-link:hover {
     color: red;
 }
 
@@ -97,18 +95,24 @@
     margin: 100px auto;
 }
 
+.two-cars {
+    width: 100%;
+    margin: 0 auto;
+}
+
 .two-cars .col-lg-6 {
-    width: 48%;
+    width: 50%;
 }
 
 .cars1 {
-    /* width: 50%; */
+    width: 100%;
     background-image: url(../images/rectangle_231.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 30px;
     padding-left: 30px;
     position: relative;
+    display: flex;
 }
 
 .cars1 .offer {
@@ -171,13 +175,14 @@
 }
 
 .cars2 {
-    /* width: 50%; */
+    width: 100%;
     background-image: url(../images/rectangle_23.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 30px;
     padding-left: 30px;
     position: relative;
+    display: flex;
 }
 
 .cars2 .offer {
@@ -282,15 +287,6 @@
     z-index: 999;
 }
 
-/* .catego .number::before {
-    content: "";
-
-}
-
-.catego:hover >.number::before{
-    right: 10px;
-} */
-
 .catego .add-cart {
     position: absolute;
     bottom: -40px;
@@ -315,7 +311,6 @@
 }
 
 /* plce-holder */
-
 .place-holder-with-circle {
     margin: 100px auto;
     height: auto;
